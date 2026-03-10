@@ -1,0 +1,7 @@
+[project]
+name = "textureanomalydetection"
+version = "0.1.0"
+description = "Industrial Surface Anomaly Detection Project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
