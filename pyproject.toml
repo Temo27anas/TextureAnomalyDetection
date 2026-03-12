@@ -5,6 +5,7 @@ description = "Industrial Surface Anomaly Detection Project"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+	"anomalib>=1.2.0",
 	"torch>=2.0.0",
 	"torchvision>=0.15.0",
 	"torchaudio>=2.0.0",
@@ -14,4 +15,6 @@ dependencies = [
 	"scipy>=1.10.0",
 	"matplotlib>=3.7.0",
 	"Pillow>=9.4.0",
+	"pandas>=2.0,<3",
+	"requests>=2.32.5",
 ]

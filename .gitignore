@@ -13,3 +13,5 @@ data/*
 !data/README.md
 
 requirements.txt
+
+outputs/
