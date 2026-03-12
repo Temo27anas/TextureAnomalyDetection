@@ -7,7 +7,9 @@ import lightning.pytorch as pl
 import torch
 from anomalib.data import Folder
 from anomalib.models import Patchcore
+from utils import set_seed
 
+set_seed(42)  # Set random seed for reproducibility
 
 def train_patchcore(
     data_dir: str = "data", # path to dataset
