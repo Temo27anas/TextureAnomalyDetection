@@ -67,8 +67,8 @@ python train_patchcore.py
 ## Testing and Evaluation
 The testing process involves:
 1. Loading the trained model checkpoint and memory bank.
-2. Extracting features from the test images and computing anomaly scores based on nearest neighbor search against the memory bank. Heatmaps are generated for pixel-level anomaly localization, and can be found in `outputs/patchcore_results/images/`
-[outputs\patchcore_results\images\cut\009.png](outputs\patchcore_results\images\cut\009.png) for example.
+2. Extracting features from the test images and computing anomaly scores based on nearest neighbor search against the memory bank. Heatmaps are generated for pixel-level anomaly localization, and can be found in `outputs/patchcore_results/images/` -  for example:
+![output_009.png](https://github.com/Temo27anas/TextureAnomalyDetection/blob/main/assets/output_009.png)
 
 3. Evaluating the performance using metrics such as AUROC, AUPR, F1-score.
 
