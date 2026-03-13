@@ -1,4 +1,4 @@
-"""Test PatchCore on MVTEC-style carpet-like texture data."""
+# Test PatchCore model on the texture defect dataset and save the results
 
 import json
 from pathlib import Path
